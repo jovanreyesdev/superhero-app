@@ -20,8 +20,8 @@ interface Biography {
 export interface Appearance {
   gender: string;
   race: string;
-  height: string[];
-  weight: string[];
+  height: [string, string];
+  weight: [string, string];
   "eye-color": string;
   "hair-color": string;
 }
